@@ -9,7 +9,7 @@ SCOPES = [
     'https://www.googleapis.com/auth/presentations',
     'https://www.googleapis.com/auth/drive'
 ]
-SERVICE_ACCOUNT_FILE = 'service_account.json'
+SERVICE_ACCOUNT_FILE = '/etc/secrets/service_account.json'
 
 # 👇 Replace this with your personal Google account to receive access
 USER_EMAIL_TO_SHARE = 'grao@ideo.com'
